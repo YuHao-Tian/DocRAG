@@ -1,0 +1,21 @@
+name: docrag
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - transformers
+      - sentence-transformers
+      - faiss-cpu
+      - numpy
+      - pillow
+      - easyocr
+      - datasets
+      - rapidfuzz
+      - scikit-learn
